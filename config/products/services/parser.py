@@ -110,12 +110,8 @@ class ProductParser:
 
 
 def clean_price(price_str):
-    """
-    Преобразует строку вида "65 799₴" в Decimal("65799.00") и возвращает валюту "₴"
-    """
     if not price_str:
         return None, None
-    # Выделяем цифры и точки/запятые
     num = re.sub(r"[^\d.,]", "", price_str).replace(",", "")
     currency = re.sub(r"[\d\s.,]", "", price_str)
     try:
