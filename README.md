@@ -64,7 +64,7 @@ JobTask/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1️ Clone the repository
 
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🐘 PostgreSQL Setup
+##  PostgreSQL Setup
 
 Below are the **actual commands used in this project** to create the database and user:
 
@@ -150,7 +150,7 @@ This command:
 
 ---
 
-### 📤 Export products to CSV
+###  Export products to CSV
 
 ```bash
 python manage.py export_csv
