@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
-from products.services.parser import ProductParser  # правильно
-from products.models import Product                 # правильно
+from products.services.parser import ProductParser
+from products.models import Product
 
 class Command(BaseCommand):
     help = "Parse product from brain.com.ua"
